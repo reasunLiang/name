@@ -1,7 +1,5 @@
 package com.lyx.File;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.io.File;
 import java.io.FilenameFilter;
 
@@ -29,7 +27,6 @@ public class demo4_filter {
         }
     }
 
-    @NotNull
     private static File demo1() {
         File file = new File("D:\\壁纸");
         File[] files = file.listFiles();

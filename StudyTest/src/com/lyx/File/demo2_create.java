@@ -13,7 +13,7 @@ import java.io.IOException;
 public class demo2_create {
     public static void main(String[] args) {
 //        demo();
-        File file = new File("ccc\\ddd");
+        File file = new File("D:\\IOTest\\Test");
         System.out.println(file.mkdirs());
 
     }
