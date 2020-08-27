@@ -1,6 +1,8 @@
 package com.lyx.Collection.TreeSet;
 
 
+import java.io.Serializable;
+
 /**
  * @Package: com.lyx.Collection.TreeSet
  * @ClassName: Person
@@ -8,9 +10,14 @@ package com.lyx.Collection.TreeSet;
  * @CreateTime: 2020/7/30 11:01
  * @Description:
  */
-public class Person {
+public class Person  implements Serializable {
     private String name;
     private int age;
+    private final Long serialVersionUID = 1L;
+    public Long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
 
     public Person(String name, int age) {
         this.name = name;

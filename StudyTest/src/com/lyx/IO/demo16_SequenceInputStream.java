@@ -35,7 +35,6 @@ public class demo16_SequenceInputStream {
         }
         sis.close();
         fos.close();
-
     }
 
     private static void demo1() throws IOException {
