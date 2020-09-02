@@ -14,7 +14,6 @@ public class demo20_DataStream {
     public static void main(String[] args) throws IOException {
 //        demo();
         DataInputStream dis = new DataInputStream(new FileInputStream("back/e.txt"));
-        int b;
 
         System.out.println(dis.readInt());
         System.out.println(dis.readInt());
