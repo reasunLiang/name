@@ -9,7 +9,6 @@ package com.lyx.test;
  */
 public class test3_Copy {
     public static void main(String[] args) {
-
-
+        
     }
 }
